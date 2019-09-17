@@ -6,7 +6,7 @@ class MyTestCase(unittest.TestCase):
        self.assertAlmostEquals(17.12,percent_coupon.calculate_order(20))
        self.assertAlmostEquals(18.604, percent_coupon.calculate_order(22))
        self.assertAlmostEquals(24.54, percent_coupon.calculate_order(30))
-       self.assertAlmostEquals(22, percent_coupon.calculate_order(33))
+       self.assertAlmostEquals(43.09, percent_coupon.calculate_order(55))
 
 
 if __name__ == '__main__':
